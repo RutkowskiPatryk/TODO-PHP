@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    background-color: tomato;
+    padding: 1.5% 5%;
+    margin-bottom: 5%;
+    color: #ffffff;
+}
+
+.nav_logo {
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav_menu {
+    text-align: right;
+}
+
+.nav_menu a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav_menu a:hover {
+    color: lightgray;
+}
+ 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.find {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.find input[type="text"] {
+    width: 100%;
+    padding: 1.5%;
+}
+
+.main_table table {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.main_table td,th {
+    padding: 1%;
+}
+
+.main_table tr:nth-child(even) {
+    background-color: lightgray;
+}
+.main_table thead {
+   font-weight: bold;
+   border-bottom: 1px solid #000000;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5%;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+
+.form-group {
+    width: 100%;
+    margin-bottom: 3%;
+}
