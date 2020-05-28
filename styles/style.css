@@ -1,3 +1,4 @@
+/*---------------------- Main --------------------*/
 
 body {
     font-family: 'Lato', sans-serif;
@@ -14,23 +15,23 @@ nav {
     float: left;
     width: 50%;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .nav_menu {
     text-align: right;
+    font-size: 17px;
 }
 
-.nav_menu a {
+nav a {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
 }
 
 .nav_menu a:hover {
-    color: lightgray;
+    color: #f2f2f2d7;
 }
  
 .container {
@@ -38,15 +39,11 @@ nav {
     margin: auto;
 }
 
-.find {
-    width: 50%;
-    margin: auto;
-    margin-bottom: 3%;
-}
 
-.find input[type="text"] {
-    width: 100%;
-    padding: 1.5%;
+/*---------------------- Index.php --------------------*/
+
+.main_table {
+    margin-top: 5%;
 }
 
 .main_table table {
@@ -55,33 +52,97 @@ nav {
     padding: 50px;
 }
 
+.done {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(4, 161, 154);
+    padding: 2%;
+    border-radius: 4px;
+    margin: 2%;
+}
+
+a[class="update"]:hover {
+    background-color: rgb(4, 161, 154,0.7);
+}
+
+a[class="done"]:hover {
+    background-color: rgb(4, 161, 154,0.7);
+}
+
 .main_table td,th {
     padding: 1%;
 }
 
 .main_table tr:nth-child(even) {
-    background-color: lightgray;
+    background-color: rgba(228, 228, 228, 0.5);
 }
 .main_table thead {
    font-weight: bold;
    border-bottom: 1px solid #000000;
 }
 
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 1.5%;
-    text-align: center;
-    color: #000000;
+.main_header {
+    margin-bottom: 5%;
 }
 
-
-
+.main_header h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
 
 .form-group {
     width: 100%;
     margin-bottom: 3%;
+}
+
+/*---------------------- Add-task.php --------------------*/
+
+.add-task {
+    width: 40%;
+    margin: auto;
+}
+
+.add-task p {
+    font-size: 18px;
+    margin-bottom: 2%;
+
+}
+
+.add-task input {
+    width: 100%;
+    padding: 1.5%;
+    margin-bottom: 6%;
+    border-radius: 4px;
+}
+
+
+p[class="error"] {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: red;
+}
+
+.add-task button {
+    color: #ffffff;
+    background-color: #2659ff;
+    padding: 2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-task button:hover {
+    background-color: #2659ffce;
+
+}
+
+p[class="success"] {
+    color: seagreen;
+    margin-bottom: 4%;
+    font-size: 13px;
+    font-weight: bold;
 }
